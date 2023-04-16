@@ -57,7 +57,7 @@ const index = () => {
                 </span>{" "}
                 from<span className="font-semibold text-[#f75023]">india</span>
               </p>
-              <h6 className="font-semibold text-[#6f6b80] mt-3 w-4/5">
+              <h6 className="font-semibold text-[#6f6b80] mt-3 w-[500px]">
                 I'm Mobile Developer based in India, and i'm very passionate and
                 dedicated to my work.
               </h6>
