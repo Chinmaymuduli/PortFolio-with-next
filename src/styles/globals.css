@@ -2,3 +2,142 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+  
+.button {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    border-radius: 10rem;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5F00D3;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #fff;
+    transition: all 0.4s;
+    border-radius: 10rem;
+    border-color: #5F00D3;
+  
+    border-width: 1px;
+    z-index: -1;
+  }
+  .button:hover {
+    color: #5F00D3;
+  }
+  .button:hover:before {
+    width: 100%;
+  }
+  
+  
+  .buttonContainer {
+    text-align: center;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    color: #777;
+  }
+  
+
+
+  .btn-8 {
+    cursor: pointer;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    /* font-family: Marvel; */
+    /* font-size: 20pt; */
+    /* width: 200px; */
+    /* height: 45px; */
+    padding: 0.2rem 1rem;
+    overflow: hidden;
+    font-weight: bold;
+    position: relative;
+    border: solid #5F00D3 2px;
+    color: #5F00D3;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    border-radius: 25px;
+    background: transparent;
+  }
+  
+  .btn-8:before {
+    content: "";
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #5F00D3;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  .btn-8:hover:before {
+    height: 100%;
+  }
+  
+  .btn-8:hover {
+    color: #f1f1f1;
+    border-color: #5F00D3;
+  }
+  
+  .btn-8:active:before {
+    background-color: #00a7fc;
+  }
+  
+  .btn-8:active {
+    border-color: #00a7fc;
+    background-color: #00a7fc;
+    color: #5F00D3;
+  }
+  
+  .btn-8:focus {
+    outline: none
+  }
+
+  .animate_btn{
+  	animation-duration: 3s; /* the duration of the animation */
+	animation-timing-function: linear; /* how the animation will behave */
+	animation-delay: 0s; /* how long to delay the animation from starting */
+	animation-iteration-count: infinite; /* how many times the animation will play */
+  animation-direction: alternate;
+  animation-name: animate_btn;
+  }
+
+
+  @keyframes animate_btn {
+    0% {
+      transform: translateY(0px);
+    }
+  
+    to {
+      transform: translateY(20px);
+    }
+  }
