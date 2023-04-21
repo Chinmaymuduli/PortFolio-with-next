@@ -1,3 +1,4 @@
+import { AboutSection, HeroButton } from "@/components";
 import Link from "next/link";
 import React from "react";
 
@@ -22,6 +23,12 @@ const index = () => {
                 className="font-bold text-black hover:text-[#5F00D3]"
               >
                 Experience
+              </Link>
+              <Link
+                href={"./Skill"}
+                className="font-bold text-black hover:text-[#5F00D3]"
+              >
+                Skills
               </Link>
               <Link
                 href={"./contact"}
@@ -178,9 +185,12 @@ const index = () => {
             </div>
           </div>
         </div>
+        <div className="absolute left-1/2 right-1/2 bottom-0  ">
+          <HeroButton />
+        </div>
       </div>
-      <div className="justify-center items-center flex">
-        <h2 className="font-bold py-10">This is second section</h2>
+      <div>
+        <AboutSection />
       </div>
     </div>
   );
