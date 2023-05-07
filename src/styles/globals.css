@@ -132,6 +132,11 @@
   }
 
 
+  .animate-leftToRight{
+    animation:title_divider_animation 3s ease-in-out infinite;
+  }
+
+
   @keyframes animate_btn {
     0% {
       transform: translateY(0px);
@@ -139,5 +144,14 @@
   
     to {
       transform: translateY(20px);
+    }
+  }
+  @keyframes title_divider_animation {
+    0% {
+      transform: translateX(-6px);
+    }
+  
+    to {
+      transform: translateX(128px);
     }
   }

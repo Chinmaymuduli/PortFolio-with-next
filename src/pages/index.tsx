@@ -1,11 +1,11 @@
-import { AboutSection, HeroButton } from "@/components";
+import { AboutSection, HeroButton, SkillsSection } from "@/components";
 import Link from "next/link";
 import React from "react";
 
 const index = () => {
   return (
     <div className="container h-screen">
-      <div className="container h-screen bg-[url('/bg.jpg')] bg-no-repeat bg-cover bg-center">
+      <div className="container h-screen bg-[url('/bg.jpg')]  ">
         <div className="h-16 flex w-full  items-center ">
           <div className="flex items-center justify-between  w-full px-48">
             <div className="w-fit">
@@ -192,6 +192,7 @@ const index = () => {
       <div>
         <AboutSection />
       </div>
+      <SkillsSection />
     </div>
   );
 };
