@@ -1,4 +1,9 @@
-import { AboutSection, HeroButton, SkillsSection } from "@/components";
+import {
+  AboutSection,
+  HeroButton,
+  MyProject,
+  SkillsSection,
+} from "@/components";
 import Link from "next/link";
 import React from "react";
 
@@ -193,6 +198,7 @@ const index = () => {
         <AboutSection />
       </div>
       <SkillsSection />
+      <MyProject />
     </div>
   );
 };
