@@ -90,7 +90,7 @@ function MyProject() {
             <h2 className="p-3 font-bold">2</h2>
           </div>
           <div className="ml-20">
-            <img src="./netflixClone.png" alt="img" className="w-96 h-96" />
+            <img src="./ola.png" alt="img" className="w-96 h-96" />
           </div>
         </div>
       </div>
