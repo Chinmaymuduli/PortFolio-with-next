@@ -1,5 +1,6 @@
 import {
   AboutSection,
+  ContactUs,
   HeroButton,
   MyProject,
   SkillsSection,
@@ -194,11 +195,16 @@ const index = () => {
           <HeroButton />
         </div>
       </div>
-      <div>
-        <AboutSection />
-      </div>
+      <AboutSection />
       <SkillsSection />
       <MyProject />
+      <ContactUs />
+      <div className="h-12 bg-violet-400 flex items-center justify-center mt-10">
+        <p className="text-white">
+          Made with ❤️ by <span className="text-violet-800">Chinmay</span> | ©
+          copyright 2023 Chinmay. All right reserved.
+        </p>
+      </div>
     </div>
   );
 };

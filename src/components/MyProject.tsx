@@ -29,8 +29,7 @@ function MyProject() {
             enthusiasts with information about their favorite films. With having
             an extensive details of movies, ranging from upcoming releases to
             popular classics. it has an easy-to-navigate interface that allows
-            users to search for movies using filters such as title, genre, and
-            year etc.
+            users to see trailer, title, genre, year and similar movies etc.
           </p>
           <div className="flex gap-4 mt-8">
             <p className="font-medium">TMDB Database</p>
@@ -58,24 +57,23 @@ function MyProject() {
         <div className="w-1/2">
           <p className="font-bold text-3xl">Ola 2.0</p>
           <p className="">
-            It is a movie details website! It is is dedicated to providing movie
-            enthusiasts with information about their favorite films. With having
-            an extensive details of movies, ranging from upcoming releases to
-            popular classics. it has an easy-to-navigate interface that allows
-            users to search for movies using filters such as title, genre, and
-            year etc.
+            Ola 2.0 is a mobile app for ride-sharing and cab booking services.
+            It offers a user-friendly interface and a range of features such as
+            real-time tracking, kilometer wise money calculation. The app is
+            designed to provide a seamless and convenient experience for users,
+            with improved performance and reliability.
           </p>
           <div className="flex gap-4 mt-8">
-            <p className="font-medium">TMDB Database</p>
+            <p className="font-medium">react-native-google-maps</p>
             <p>Native Base</p>
-            <p>Redux/Redux Toolkit</p>
+            <p>react-native-geolocation-service</p>
           </div>
           <div className="mt-3">
             <p className="font-semibold text-purple-800">Github Repo :-</p>
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 1024 1024"
               height="3em"
               width="3em"
@@ -107,24 +105,22 @@ function MyProject() {
         <div className="w-1/2">
           <p className="font-bold text-3xl">Chat App</p>
           <p className="">
-            It is a movie details website! It is is dedicated to providing movie
-            enthusiasts with information about their favorite films. With having
-            an extensive details of movies, ranging from upcoming releases to
-            popular classics. it has an easy-to-navigate interface that allows
-            users to search for movies using filters such as title, genre, and
-            year etc.
+            This app is a user-friendly application designed for instant
+            messaging and communication between individuals. It allows users to
+            exchange text messages in real-time. The app provides a seamless and
+            secure messaging experience for its users.
           </p>
           <div className="flex gap-4 mt-8">
-            <p className="font-medium">TMDB Database</p>
+            <p className="font-medium">Socket io</p>
             <p>Native Base</p>
-            <p>Redux/Redux Toolkit</p>
+            <p>Mongodb</p>
           </div>
           <div className="mt-3">
             <p className="font-semibold text-purple-800">Github Repo :-</p>
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 1024 1024"
               height="3em"
               width="3em"
