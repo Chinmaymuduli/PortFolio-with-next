@@ -136,6 +136,62 @@
     animation:title_divider_animation 3s ease-in-out infinite;
   }
 
+  .imageBox{
+    box-sizing: border-box;
+    /* display: block; */
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  .imageBoxSpan{
+    box-sizing: border-box;
+    /* display: block; */
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 63.9394% 0px 0px;
+  }
+  .imageStyle{
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+  }
+  .fixImage>span{
+    vertical-align: middle;
+  }
+
+  .animate-ledgerLeftToRight{
+    animation:ledgerLeftToRight 3s ease-in-out infinite ;
+  }
+  .animate-ledgerRightToLeft{
+    animation:ledgerRightToLeft 3s ease-in-out infinite ;
+  }
+  .animate-ledgerBottomTop{
+    animation: ledgerBottomToTop 3s ease-in-out infinite;
+  }
+  .animate-ledgerTopBottom{
+    animation: ledgerTopBottom 3s ease-in-out infinite;
+  }
+
 
   @keyframes animate_btn {
     0% {
@@ -153,5 +209,41 @@
   
     to {
       transform: translateX(128px);
+    }
+  }
+  @keyframes ledgerLeftToRight {
+    0% {
+      left: -40px;
+    }
+  
+    100% {
+      left: 100%;
+    }
+  }
+  @keyframes ledgerRightToLeft {
+    0% {
+      right: -40px;
+    }
+  
+    100% {
+      right: 100%;
+    }
+  }
+  @keyframes ledgerBottomToTop {
+    0% {
+      bottom: -40px;
+    }
+  
+    100% {
+      bottom: 100%;
+    }
+  }
+  @keyframes ledgerTopBottom {
+    0% {
+      top: -40px;
+    }
+  
+    100% {
+      top: 100%;
     }
   }
